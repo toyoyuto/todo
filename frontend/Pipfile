@@ -5,8 +5,6 @@ name = "pypi"
 
 [packages]
 django = "==2.1"
-djangorestframework = "==3.8.2"
-django-cors-headers = "==2.4.0"
 
 [dev-packages]
 
@@ -14,4 +12,4 @@ django-cors-headers = "==2.4.0"
 python_version = "3.8"
 
 [scripts]
-start = "python manage.py runserver 8080"
+start = "python main.py runserver"
