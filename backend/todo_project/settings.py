@@ -53,7 +53,8 @@ REST_FRAMEWORK = {
 }
 # 追加
 CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/'
+    # 'localhost:3000/'
+    'localhost:8000'
 )
 
 MIDDLEWARE = [
