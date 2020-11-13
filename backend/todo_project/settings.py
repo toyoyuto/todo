@@ -36,6 +36,7 @@ INSTALLED_APPS = [
      # 3rd party
     'rest_framework',
     'corsheaders',
+    'rest_framework_swagger',
 
     'django.contrib.admin',
     'django.contrib.auth',
