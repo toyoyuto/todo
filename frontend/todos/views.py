@@ -6,7 +6,7 @@ import requests
     
 def index(request):
     print("index")
-    return HttpResponse("こんちには！")
+    return render(request, 'todos/index.html')
 
 def hello(request):
     print("hello")
